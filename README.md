@@ -32,6 +32,8 @@ PORT=8080 bun run start
 
 ## Vercel Deployment
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bongodevs/jiosaavn-proxy-api)
+
 This project natively supports Vercel and is strictly configured to deploy to the **Mumbai (`bom1`)** region in the `vercel.json` file. 
 
 To deploy:

@@ -1,5 +1,8 @@
 {
   "name": "jiosaavn-proxy",
+  "version": "1.0.0",
+  "author": "BongoDevs",
+  "license": "MIT",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {

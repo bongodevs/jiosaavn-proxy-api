@@ -1,5 +1,8 @@
 # JioSaavn API Proxy
 
+> [!WARNING]
+> This project is for educational purposes only. Use it at your own risk. The author is not responsible for any misuse.
+
 A high-performance TypeScript proxy server for JioSaavn API requests, powered by [Bun](https://bun.sh) and [Hono](https://hono.dev).
 
 This forwards all queries, handles CORS naturally, masks headers (like `User-Agent` and `Referer`), and pipes native `fetch` responses safely with minimal overhead to the official JioSaavn API. You can use this proxy server to bypass geo-restrictions or use a custom domain.

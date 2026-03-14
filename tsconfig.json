@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "strict": true,
     "skipLibCheck": true,
     "lib": ["ESNext", "DOM"],
-    "types": ["bun-types", "@types/node"],
-    "allowImportingTsExtensions": true,
+    "types": ["@types/node"],
     "noEmit": true,
     "baseUrl": ".",
     "paths": {

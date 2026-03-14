@@ -1,4 +1,4 @@
-import gateway from './app';
+import gateway from './app.js';
 
 const serverPort = parseInt(process.env.PORT || '3000', 10);
 

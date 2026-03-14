@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+bun.lock
+
+# Build
+dist/
+.output/
+.vercel/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# OS
+.DS_Store
+Thumbs.db

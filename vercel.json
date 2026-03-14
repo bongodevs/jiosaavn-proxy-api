@@ -1,0 +1,32 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "regions": [
+    "bom1"
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.ts"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=300, stale-while-revalidate"
+        },
+        {
+          "key": "X-Author",
+          "value": "BongoDevs"
+        },
+        {
+          "key": "X-Github",
+          "value": "https://github.com/bongodevs/jiosaavn-proxy-api"
+        }
+      ]
+    }
+  ]
+}
